@@ -9,6 +9,8 @@ In addition to walking and falling, Lemmings can sometimes be told to do useful 
 Although Lemmings can walk, fall, and dig, Lemmings aren't invulnerable. If a Lemming falls for too long then hits the ground, it can splatter. In particular, if a Lemming falls for more than 20 clock cycles then hits the ground, it will splatter and cease walking, falling, or digging (all 4 outputs become 0), forever (Or until the FSM gets reset). There is no upper limit on how far a Lemming can fall before hitting the ground. Lemmings only splatter when hitting the ground; they do not splatter in mid-air.
 
 Lets create finite state machine to model this behaviour.
+## State Diagram
+![WhatsApp Image 2023-07-27 at 8 17 37 AM](https://github.com/adityasingh6256/Lemming_game/assets/110079790/d593181d-c5c2-4497-8f53-e9c8c0f6fa59)
 
 
 ## Simultation waveform
